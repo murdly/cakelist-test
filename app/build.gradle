@@ -30,8 +30,12 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$versions.appcompat"
     implementation "androidx.core:core-ktx:$versions.core"
     implementation "androidx.constraintlayout:constraintlayout:$versions.constraintLayout"
+    implementation "androidx.recyclerview:recyclerview:$versions.recyclerView"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$versions.swipeRefreshLayout"
 
     implementation "android.arch.lifecycle:extensions:$versions.lifecycle"
+
+    implementation "com.squareup.picasso:picasso:$versions.picasso"
 
     implementation "com.google.dagger:dagger:$versions.dagger"
     kapt "com.google.dagger:dagger-compiler:$versions.dagger"
